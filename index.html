@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <body>
+    <div id="allmap"></div>
+    <p id="welcome_title" hidden><span id="class_name">长郡中学LHR</span><br/><b>蹭饭指南</b></p>
     <div id="key_input" hidden>
       <a href="javascript:goGuest()">访客入口</a>
     </div>
@@ -15,10 +17,7 @@
       </a>
       <select onchange="goVisit()" id="class_select">
         <option value="" disabled selected hidden>看看其他班</option>
-        <option value="TG2019302">桐高2019届302班</option>
-        <option value="TG2019303">桐高2019届303班</option>
       </select>
-      <a id="back_main" href="/">我不是访客</a>
     </div>
     <div>
     <script type="text/javascript" src="mapUtil.js"> </script>
